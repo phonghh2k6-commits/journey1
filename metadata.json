@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Journey AI",
+  "description": "Explore the World. Discover the Stories. Complete luxury travel design system, interactive multi-flow prototype, and Flutter/FastAPI/Supabase architecture handoff.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

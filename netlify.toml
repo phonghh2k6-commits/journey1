@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = "echo 'Journey AI static PWA ready in public/'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

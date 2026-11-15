@@ -946,8 +946,8 @@ fun JourneyScreenStateOverlay(
                 title = tr(language, "Unlock 4K Cinema Export & Offline Voice Packs", "Mở Khóa Xuất Phim 4K & Thuyết Minh Ngoại Tuyến"),
                 body = tr(
                     language,
-                    "Unlimited AI architectural scans, lossless 60fps travel film rendering, and regional Vietnamese scholar narrations are included with Journey+ Membership.",
-                    "Quét kiến trúc AI không giới hạn, dựng phim hành trình 4K 60fps và kho thuyết minh chuyên sâu dành riêng cho hội viên Journey+."
+                    "Unlimited AI architectural captures, lossless 60fps travel film rendering, and regional Vietnamese scholar narrations are included with Journey+ Membership.",
+                    "Chụp kiến trúc AI không giới hạn, dựng phim hành trình 4K 60fps và kho thuyết minh chuyên sâu dành riêng cho hội viên Journey+."
                 ),
                 primaryActionLabel = tr(language, "Compare Journey+ Plans (I3)", "Xem Gói Hội Viên Journey+ (I3)"),
                 onPrimaryAction = {

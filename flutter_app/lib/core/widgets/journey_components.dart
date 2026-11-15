@@ -347,7 +347,7 @@ class JourneySearchBar extends StatelessWidget {
             IconButton(
               onPressed: onTapScan,
               icon: Icon(Icons.qr_code_scanner_rounded, color: colors.accent, size: 20),
-              tooltip: 'Quét AI',
+              tooltip: 'Chụp AI',
             ),
         ],
       ),
@@ -655,7 +655,7 @@ class JournalPhotoCard extends StatelessWidget {
   }
 }
 
-/// 7. BottomNavigation — 5-Tab Bar with Center Elevated Champagne Gold 'Quét' Button
+/// 7. BottomNavigation — 5-Tab Bar with Center Elevated Champagne Gold 'Chụp' Button
 class JourneyBottomNav extends StatelessWidget {
   final int currentIndex;
   final ValueChanged<int> onTap;
@@ -676,7 +676,7 @@ class JourneyBottomNav extends StatelessWidget {
     final items = [
       (Icons.home_outlined, Icons.home_rounded, isVietnamese ? 'Trang chủ' : 'Home'),
       (Icons.explore_outlined, Icons.explore_rounded, isVietnamese ? 'Khám phá' : 'Explore'),
-      (Icons.camera_alt_rounded, Icons.camera_alt_rounded, isVietnamese ? 'Quét' : 'Scan'),
+      (Icons.camera_alt_rounded, Icons.camera_alt_rounded, isVietnamese ? 'Chụp' : 'Capture'),
       (Icons.menu_book_outlined, Icons.menu_book_rounded, isVietnamese ? 'Nhật ký' : 'Journal'),
       (Icons.person_outline_rounded, Icons.person_rounded, isVietnamese ? 'Hồ sơ' : 'Profile'),
     ];

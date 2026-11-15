@@ -324,7 +324,7 @@ fun HomeDashboardScreen(
                         }
                         Icon(
                             imageVector = Icons.Default.CameraAlt,
-                            contentDescription = "Quét AI",
+                            contentDescription = "Chụp AI",
                             tint = colors.accent,
                             modifier = Modifier
                                 .size(20.dp)
@@ -449,14 +449,14 @@ fun HomeDashboardScreen(
                     }
                 }
 
-                // 4 Circular Quick Actions Row (Quét khám phá | Hỏi AI | Khám phá quanh đây | Nhật ký)
+                // 4 Circular Quick Actions Row (Chụp khám phá | Hỏi AI | Khám phá quanh đây | Nhật ký)
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceAround,
                     verticalAlignment = Alignment.Top
                 ) {
                     listOf(
-                        Triple(Icons.Default.CameraAlt, tr(lang, "AI Scan", "Quét khám phá"), JourneyScreenId.D1_AI_CAMERA),
+                        Triple(Icons.Default.CameraAlt, tr(lang, "AI Capture", "Chụp khám phá"), JourneyScreenId.D1_AI_CAMERA),
                         Triple(Icons.Default.AutoAwesome, tr(lang, "Ask AI", "Hỏi AI"), JourneyScreenId.E1_AI_CHAT),
                         Triple(Icons.Default.LocationOn, tr(lang, "Nearby", "Khám phá quanh đây"), JourneyScreenId.C1_EXPLORE_MAP),
                         Triple(Icons.Default.Bookmark, tr(lang, "Journal", "Nhật ký"), JourneyScreenId.F1_JOURNAL_HOME)

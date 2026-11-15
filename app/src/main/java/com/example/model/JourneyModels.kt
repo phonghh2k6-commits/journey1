@@ -37,7 +37,7 @@ enum class PrimaryTab(
 ) {
     HOME("NAV_HOME", "Home", "Trang chủ"),
     EXPLORE("NAV_EXPLORE", "Explore", "Khám phá"),
-    DISCOVER("NAV_DISCOVER", "Scan", "Quét"),
+    DISCOVER("NAV_DISCOVER", "Capture", "Chụp"),
     JOURNAL("NAV_JOURNAL", "Journal", "Nhật ký"),
     PROFILE("NAV_PROFILE", "Profile", "Hồ sơ");
 
@@ -382,7 +382,7 @@ object JourneySampleRepository {
                     locationTag = "Văn Miếu, Hà Nội",
                     coordinates = "21.0287° N, 105.8356° E",
                     noteEn = "Scanned the 1484 Doctor Stele with Journey AI Lens. The translation revealed the exact royal examination poem inscribed during Emperor Lê Thánh Tông's reign.",
-                    noteVi = "Dùng ống kính Journey AI quét văn bia năm Hồng Đức 1484. Từng dòng chữ Hán cổ hiện lên cùng lời dịch trang nhã và âm thanh thuyết minh trầm ấm.",
+                    noteVi = "Dùng ống kính Journey AI chụp văn bia năm Hồng Đức 1484. Từng dòng chữ Hán cổ hiện lên cùng lời dịch trang nhã và âm thanh thuyết minh trầm ấm.",
                     photoRes = R.drawable.img_hanoi_temple,
                     weatherTag = "21°C • Golden Mist"
                 ),
@@ -450,8 +450,8 @@ object JourneySampleRepository {
             id = "coll_imperial",
             titleEn = "Imperial Timber & Pagoda Joinery",
             titleVi = "Kiến trúc Gỗ Cổ & Chùa Tháp Việt Nam",
-            subtitleEn = "14 Architectural Scans • Dynastic Craftsmanship",
-            subtitleVi = "14 Điểm quét AI • Tinh hoa Chạm khắc Cổ truyền",
+            subtitleEn = "14 Architectural Captures • Dynastic Craftsmanship",
+            subtitleVi = "14 Điểm chụp AI • Tinh hoa Chạm khắc Cổ truyền",
             coverRes = R.drawable.img_hanoi_temple,
             placeIds = listOf("place_hoian", "place_hanoi_temple"),
             badgeTagEn = "ARCHITECTURAL SERIES",

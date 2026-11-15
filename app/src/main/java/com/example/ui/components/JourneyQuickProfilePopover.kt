@@ -334,8 +334,8 @@ fun JourneyQuickProfilePopover(
                         Text(
                             text = tr(
                                 lang,
-                                "Journey+ Patron • 28 Heritage Scans",
-                                "Hội viên Journey+ • 28 điểm di sản đã quét"
+                                "Journey+ Patron • 28 Heritage Captures",
+                                "Hội viên Journey+ • 28 điểm di sản đã chụp"
                             ),
                             style = MaterialTheme.typography.bodySmall,
                             color = colors.secondaryText
@@ -401,8 +401,8 @@ fun JourneyQuickProfilePopover(
                         Text(
                             text = tr(
                                 lang,
-                                "Keep only Featured Monument, Today's Journal & Quick AI Scan with large touch targets.",
-                                "Chỉ giữ lại Điểm di sản chính, Nhật ký hôm nay & Quét AI nhanh với nút bấm cỡ lớn."
+                                "Keep only Featured Monument, Today's Journal & Quick AI Capture with large touch targets.",
+                                "Chỉ giữ lại Điểm di sản chính, Nhật ký hôm nay & Chụp AI nhanh với nút bấm cỡ lớn."
                             ),
                             style = MaterialTheme.typography.bodySmall,
                             color = colors.secondaryText
@@ -473,8 +473,8 @@ fun JourneyQuickProfilePopover(
                             Text(
                                 text = tr(
                                     lang,
-                                    "Read historical stories aloud when scanning monuments or opening map pins.",
-                                    "Đọc to câu chuyện lịch sử khi quét di tích hoặc chạm vào điểm đến."
+                                    "Read historical stories aloud when capturing monuments or opening map pins.",
+                                    "Đọc to câu chuyện lịch sử khi chụp di tích hoặc chạm vào điểm đến."
                                 ),
                                 style = MaterialTheme.typography.bodySmall,
                                 color = colors.secondaryText,

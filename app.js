@@ -610,7 +610,7 @@ class JourneyAppController {
             type="button"
             onclick="window.journeyApp.switchTab('discover')"
             style="border:none;background:transparent;color:var(--accent-gold);font-size:1.05rem;cursor:pointer;"
-            title="Quét AI"
+            title="Chụp AI"
           >
             📷
           </button>
@@ -641,7 +641,7 @@ class JourneyAppController {
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center;padding:4px 0;">
           <div onclick="window.journeyApp.switchTab('discover')" style="cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;">
             <div style="width:54px;height:54px;border-radius:50%;background:var(--surface-card);border:1.5px solid var(--accent-gold);display:flex;align-items:center;justify-content:center;font-size:1.25rem;box-shadow:var(--shadow-card);">📷</div>
-            <span style="font-size:0.73rem;font-weight:700;color:var(--text-primary);line-height:1.2;">Quét khám phá</span>
+            <span style="font-size:0.73rem;font-weight:700;color:var(--text-primary);line-height:1.2;">Chụp khám phá</span>
           </div>
           <div onclick="window.journeyApp.openDestinationModal('halong')" style="cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;">
             <div style="width:54px;height:54px;border-radius:50%;background:var(--surface-card);border:1.5px solid var(--accent-gold);display:flex;align-items:center;justify-content:center;font-size:1.25rem;box-shadow:var(--shadow-card);">💬</div>
@@ -715,7 +715,7 @@ class JourneyAppController {
 
       <!-- 3. Feed Cards -->
       <section aria-label="Bảng tin bài đăng" style="display:flex;flex-direction:column;gap:14px;">
-        ${postsHtml || '<div style="text-align:center;padding:28px 18px;background:var(--surface-card);border-radius:20px;border:1px solid var(--border-color);color:var(--text-secondary);">Chưa có khoảnh khắc nào. Hãy bấm <strong>Quét 📷</strong> để chụp bức ảnh đầu tiên!</div>'}
+        ${postsHtml || '<div style="text-align:center;padding:28px 18px;background:var(--surface-card);border-radius:20px;border:1px solid var(--border-color);color:var(--text-secondary);">Chưa có khoảnh khắc nào. Hãy bấm <strong>Chụp 📷</strong> để chụp bức ảnh đầu tiên!</div>'}
       </section>
     `;
   }
@@ -3618,7 +3618,7 @@ class JourneyAppController {
         </div>
 
         <div class="checkin-grid">
-          ${cardsHtml || '<div style="grid-column:1/-1;text-align:center;padding:24px;color:var(--text-secondary);">Chưa có ảnh check-in nào. Hãy chạm nút Quét để lưu giữ khoảnh khắc đầu tiên!</div>'}
+          ${cardsHtml || '<div style="grid-column:1/-1;text-align:center;padding:24px;color:var(--text-secondary);">Chưa có ảnh check-in nào. Hãy chạm nút Chụp để lưu giữ khoảnh khắc đầu tiên!</div>'}
         </div>
 
         <div onclick="window.journeyApp.switchTab('discover')" style="cursor:pointer;display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:18px;background:var(--surface-card);border:1px solid var(--border-gold);">

@@ -593,7 +593,7 @@ class JourneyAppController {
           style="display:flex;align-items:center;justify-content:space-between;padding:11px 16px;border-radius:999px;background:var(--surface-card);border:1px solid var(--border-gold);cursor:pointer;"
         >
           <span style="font-size:0.84rem;color:var(--text-secondary);">🔍 Tìm kiếm địa điểm, vật thể, câu chuyện...</span>
-          <span onclick="event.stopPropagation(); window.journeyApp.switchTab('discover')" style="font-size:1rem;color:var(--accent-gold);font-weight:800;" title="Quét AI">📷</span>
+          <span onclick="event.stopPropagation(); window.journeyApp.switchTab('discover')" style="font-size:1rem;color:var(--accent-gold);font-weight:800;" title="Chụp AI">📷</span>
         </div>
 
         <!-- Vịnh Hạ Long Hero Card -->
@@ -627,7 +627,7 @@ class JourneyAppController {
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center;padding:4px 0;">
           <div onclick="window.journeyApp.switchTab('discover')" style="cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;">
             <div style="width:54px;height:54px;border-radius:50%;background:var(--surface-card);border:1.5px solid var(--border-gold);display:flex;align-items:center;justify-content:center;font-size:1.3rem;">📷</div>
-            <span style="font-size:0.72rem;font-weight:700;color:var(--text-primary);">Quét khám phá</span>
+            <span style="font-size:0.72rem;font-weight:700;color:var(--text-primary);">Chụp khám phá</span>
           </div>
           <div onclick="window.journeyApp.openFriendsAndChatHub('friends')" style="cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;">
             <div style="width:54px;height:54px;border-radius:50%;background:var(--surface-card);border:1.5px solid var(--border-gold);display:flex;align-items:center;justify-content:center;font-size:1.3rem;">💬</div>
@@ -3604,7 +3604,7 @@ class JourneyAppController {
         </div>
 
         <div class="checkin-grid">
-          ${cardsHtml || '<div style="grid-column:1/-1;text-align:center;padding:24px;color:var(--text-secondary);">Chưa có ảnh check-in nào. Hãy chạm nút Quét để lưu giữ khoảnh khắc đầu tiên!</div>'}
+          ${cardsHtml || '<div style="grid-column:1/-1;text-align:center;padding:24px;color:var(--text-secondary);">Chưa có ảnh check-in nào. Hãy chạm nút Chụp để lưu giữ khoảnh khắc đầu tiên!</div>'}
         </div>
 
         <div onclick="window.journeyApp.switchTab('discover')" style="cursor:pointer;display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:18px;background:var(--surface-card);border:1px solid var(--border-gold);">

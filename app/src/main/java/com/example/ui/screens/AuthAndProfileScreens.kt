@@ -1875,7 +1875,7 @@ fun SubscriptionScreen(
             "EXPLORER_FREE",
             tr(lang, "Explorer Tier • Free", "Gói Khám Phá • Miễn Phí"),
             listOf(
-                tr(lang, "5 AI Monument Recognition scans / day", "5 lượt quét nhận diện di sản AI / ngày"),
+                tr(lang, "5 AI Monument Recognition captures / day", "5 lượt chụp nhận diện di sản AI / ngày"),
                 tr(lang, "Standard 1080p travel journal stories", "Nhật ký hành trình & câu chuyện AI tiêu chuẩn"),
                 tr(lang, "Online map & community discovery feed", "Bản đồ trực tuyến & bảng tin khám phá")
             )

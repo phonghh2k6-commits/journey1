@@ -471,7 +471,7 @@ class _HomeTab extends StatelessWidget {
           children: [
             _QuickActionCircle(
               icon: Icons.camera_alt_rounded,
-              label: 'Quét\nkhám phá',
+              label: 'Chụp\nkhám phá',
               onTap: onOpenCamera,
             ),
             _QuickActionCircle(
